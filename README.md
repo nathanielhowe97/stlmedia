@@ -1,2 +1,2 @@
 # stlmedia
- templates for stl
+ templates for stl media team
