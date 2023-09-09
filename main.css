@@ -113,6 +113,11 @@ details{
         background-color: #1b282e62;
     }
 }
+
+.download{
+    transform:rotate(0deg) !important;
+}
+
 a{
     text-decoration: none;
 }
