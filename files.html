@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="files.css">
 
     <script src="copy.js" defer></script>
+    <script src="authentication.js" defer></script>
 
     <title>Files</title>
 </head>
@@ -39,6 +40,31 @@
                 </div>
             </article>
         </main>
+    </div>
+
+    <div class="off-screen-elements">
+        <div class="verification-container">
+            <header>
+                <h1>
+                    <span class="sans-serif | secondary-heading">Enter a valid pin</span>
+                    <span class="script | primary-heading">verification</span>
+                </h1>
+            </header>
+            <section class="verify">
+                <input type="text" class="verify-input | sans-serif" placeholder="Pin here">
+                <button class=" sans-serif | submit">Enter</button>
+            </section>
+        </div>
+
+        <div class="toast hidden">
+            <div class="icon">
+                <span class="material-symbols-outlined">error</span>
+            </div>
+            <div class="message">
+                <span class="sans-serif | secondary-heading">Error:</span>
+                <span class="sans-serif error-message | regular">{error message here}</span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
