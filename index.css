@@ -1,0 +1,55 @@
+.wrapper{
+    background-image: url('assets/bg_image.png');
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width:100vw;
+    width:100dvw;
+    height:100vh;
+    height:100dvh;
+}
+
+header{
+    padding-block:3.5rem 1rem;
+
+    display:block;
+    margin-inline:auto;
+    text-align: center;
+
+    & h1{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+.links-container{
+    font-family: var(--ff-sans-serif);
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+
+}
+
+.verify{
+    max-width: fit-content;
+    display:block;
+    margin-inline:auto;
+
+    & input, button{
+        background: 0;
+        border:1px solid var(--clr-primary);
+        padding:.5rem;
+        border-radius:.25rem;
+    }
+
+    & button{
+        cursor: pointer;
+
+        background-color: var(--clr-primary);
+        color: var(--clr-secondary);
+        padding-inline:1rem;
+    }
+}
